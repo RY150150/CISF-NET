@@ -80,7 +80,7 @@ if __name__ == '__main__':
     model_name = 'CISF-NET'
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--epoch', type=int, default=60, help='epoch number')
+    parser.add_argument('--epoch', type=int, default=100, help='epoch number')
     parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
     parser.add_argument('--optimizer', type=str, default='AdamW',
                         help='choosing optimizer AdamW or SGD')

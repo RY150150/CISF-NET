@@ -38,10 +38,11 @@ run:
 ```bash
 python train.py \
   --train_path data/training/ \
-  --pretrained_path pretrained_pth/mit_b3.pth
+  --pretrained_path pretrained_pth/mit_b3.pth \
+  --epoch 100
 ```
 
-Training runs for 60 epochs by default without a validation set. The final
+Training runs for 100 epochs by default without a validation set. The final
 model is saved as `model_pth/CISF-NET/final.pth`.
 
 ## Test
